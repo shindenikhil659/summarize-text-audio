@@ -62,16 +62,16 @@ After creating a service account, create a service account key by clicking on th
 
 For example, on Linux or MacOS, in .zshrc:
 
-# export GOOGLE_APPLICATION_CREDENTIALS="/home/user/Downloads/service-account-file.json"
+<img width="493" alt="image" src="https://user-images.githubusercontent.com/95039067/211203592-6c18e29e-b35b-4b3e-a1d4-27e1a71c82c5.png">
 
 For example, on Windows with PowerShell:
+<img width="481" alt="image" src="https://user-images.githubusercontent.com/95039067/211203606-d5398041-8886-460a-b7c3-b46d95615932.png">
 
-# $env:GOOGLE_APPLICATION_CREDENTIALS="C:\Users\username\Downloads\service-account-file.json"
 Next, install the Google Cloud CLI. Since this is different for each operating system, follow the steps outlined in Google’s gcloud CLI installation guide.
 
 Finally, install the Python client library with the following command:
 
-# pip install --upgrade google-cloud-vision
+<img width="487" alt="image" src="https://user-images.githubusercontent.com/95039067/211203629-5b38138e-b029-4efa-99a7-64a491214b8b.png">
 
 # Setup OpenAI
 Assuming you already registered for an account with OpenAI, you’ll need to create an API key in your user account settings, which will allow you to authenticate your application with OpenAI. Copy this key and don’t share it with anyone!
@@ -83,23 +83,26 @@ We will securely store this API key in the following section.
 Setup Local Environment
 Create an empty project directory:
 
-# mkdir summarize_text 
+<img width="481" alt="image" src="https://user-images.githubusercontent.com/95039067/211203665-daedf90e-a0ca-4206-90ca-09a4e00ca893.png">
 
 Then change into that directory as that’s where our code will be.
 
-# cd summarize_text
+<img width="451" alt="image" src="https://user-images.githubusercontent.com/95039067/211203687-8ce8c510-0822-4d3b-b0f4-c5e917021189.png">
+
 
 Create a virtual environment:
+<img width="437" alt="image" src="https://user-images.githubusercontent.com/95039067/211203704-e0fd680b-6269-4047-abed-50c3f5102aff.png">
 
-# python -m venv summarize
 
 Activate our virtual environment:
 
-# source summarize/bin/activate
+<img width="414" alt="image" src="https://user-images.githubusercontent.com/95039067/211203714-ec6e24f5-f25d-4afd-938a-4180445eee24.png">
+
 
 Install dependencies to our virtual environment:
 
-# pip install python-dotenv twilio Flask requests google-cloud-vision openai
+<img width="457" alt="image" src="https://user-images.githubusercontent.com/95039067/211203729-ed7460eb-942a-4037-b31c-d584a6a39261.png">
+
 
 Let’s create a file called .env in the project’s root directory to store our API keys in environment variables.
 
@@ -107,7 +110,8 @@ Within that file, we’ll create an environment variable called OPENAI_API_KEY.
 
 (Replace PASTE_YOUR_API_KEY_HERE with the API key that you copied earlier.)
 
-# OPENAI_API_KEY=PASTE_YOUR_API_KEY_HERE
+<img width="446" alt="image" src="https://user-images.githubusercontent.com/95039067/211203751-b4f846e5-f273-48de-bc04-3ed30e539e56.png">
+
  For example:
 
 # OPENAI_API_KEY=sk-1234567890abcdefg
