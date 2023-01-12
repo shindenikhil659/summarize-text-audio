@@ -9,7 +9,7 @@ Summarizes Text from Images Using AI and send back an audio file that you can li
   
   Content, content, content! Are you overwhelmed by the amount of content you’re asked to read on a daily basis? Don’t you wish you could quickly summarize large chunks of text? It’d be a huge timesaver, especially for college students who read a lot of content!
 
-In this blog post, I will teach you how to build an app in Python that performs text recognition on photos, summarizes that text, and then sends you a summary via SMS.
+This project teach you how to build an app in Python that performs text recognition on photos, summarizes that text, and then sends you a summary via SMS.
 
 ![Summarize_Text_from_Images_using_AI_and_Twilio](https://user-images.githubusercontent.com/95039067/211203135-f7f54b8f-0b36-4049-976a-d77e05292294.gif)
 
